@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C196C2E1D66AF2100C37264 /* XTYJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C196C2D1D66AF2100C37264 /* XTYJson.m */; };
 		4CD31B591D668660006CA9BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD31B581D668660006CA9BF /* main.m */; };
 		4CD31B5C1D668660006CA9BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD31B5B1D668660006CA9BF /* AppDelegate.m */; };
 		4CD31B5F1D668660006CA9BF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD31B5E1D668660006CA9BF /* MasterViewController.m */; };
@@ -16,7 +17,6 @@
 		4CD31B6A1D668660006CA9BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD31B681D668660006CA9BF /* LaunchScreen.storyboard */; };
 		4CD31B751D668660006CA9BF /* XTYModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD31B741D668660006CA9BF /* XTYModelTests.m */; };
 		4CD31B801D668660006CA9BF /* XTYModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD31B7F1D668660006CA9BF /* XTYModelUITests.m */; };
-		4CD31B921D668803006CA9BF /* XTYJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD31B911D668803006CA9BF /* XTYJson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C196C2C1D66AF2100C37264 /* XTYJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTYJson.h; sourceTree = "<group>"; };
+		4C196C2D1D66AF2100C37264 /* XTYJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTYJson.m; sourceTree = "<group>"; };
 		4CD31B541D668660006CA9BF /* XTYModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTYModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD31B581D668660006CA9BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CD31B5A1D668660006CA9BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,8 +57,6 @@
 		4CD31B7B1D668660006CA9BF /* XTYModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTYModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD31B7F1D668660006CA9BF /* XTYModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTYModelUITests.m; sourceTree = "<group>"; };
 		4CD31B811D668660006CA9BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CD31B901D668803006CA9BF /* XTYJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XTYJson.h; path = Json/XTYJson.h; sourceTree = SOURCE_ROOT; };
-		4CD31B911D668803006CA9BF /* XTYJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XTYJson.m; path = Json/XTYJson.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +107,8 @@
 		4CD31B561D668660006CA9BF /* XTYModel */ = {
 			isa = PBXGroup;
 			children = (
-				4CD31B8F1D668798006CA9BF /* Json */,
-				4CD31B8E1D6686D2006CA9BF /* Model */,
+				4CD31B8F1D668798006CA9BF /* XTYJson */,
+				4CD31B8E1D6686D2006CA9BF /* XTYModelItem */,
 				4CD31B8D1D66868E006CA9BF /* VC */,
 				4CD31B571D668660006CA9BF /* Supporting Files */,
 			);
@@ -158,20 +158,20 @@
 			name = VC;
 			sourceTree = "<group>";
 		};
-		4CD31B8E1D6686D2006CA9BF /* Model */ = {
+		4CD31B8E1D6686D2006CA9BF /* XTYModelItem */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Model;
+			name = XTYModelItem;
 			sourceTree = "<group>";
 		};
-		4CD31B8F1D668798006CA9BF /* Json */ = {
+		4CD31B8F1D668798006CA9BF /* XTYJson */ = {
 			isa = PBXGroup;
 			children = (
-				4CD31B901D668803006CA9BF /* XTYJson.h */,
-				4CD31B911D668803006CA9BF /* XTYJson.m */,
+				4C196C2C1D66AF2100C37264 /* XTYJson.h */,
+				4C196C2D1D66AF2100C37264 /* XTYJson.m */,
 			);
-			name = Json;
+			name = XTYJson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,7 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD31B5C1D668660006CA9BF /* AppDelegate.m in Sources */,
-				4CD31B921D668803006CA9BF /* XTYJson.m in Sources */,
+				4C196C2E1D66AF2100C37264 /* XTYJson.m in Sources */,
 				4CD31B5F1D668660006CA9BF /* MasterViewController.m in Sources */,
 				4CD31B591D668660006CA9BF /* main.m in Sources */,
 				4CD31B621D668660006CA9BF /* DetailViewController.m in Sources */,
