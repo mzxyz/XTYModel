@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4C196C2E1D66AF2100C37264 /* XTYJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C196C2D1D66AF2100C37264 /* XTYJson.m */; };
+		4C196C311D66AFCE00C37264 /* XTYModelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C196C301D66AFCE00C37264 /* XTYModelItem.m */; };
 		4CD31B591D668660006CA9BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD31B581D668660006CA9BF /* main.m */; };
 		4CD31B5C1D668660006CA9BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD31B5B1D668660006CA9BF /* AppDelegate.m */; };
 		4CD31B5F1D668660006CA9BF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD31B5E1D668660006CA9BF /* MasterViewController.m */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		4C196C2C1D66AF2100C37264 /* XTYJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTYJson.h; sourceTree = "<group>"; };
 		4C196C2D1D66AF2100C37264 /* XTYJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTYJson.m; sourceTree = "<group>"; };
+		4C196C2F1D66AFCE00C37264 /* XTYModelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = XTYModelItem.h; path = XTYModelItem/XTYModelItem.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4C196C301D66AFCE00C37264 /* XTYModelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = XTYModelItem.m; path = XTYModelItem/XTYModelItem.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4CD31B541D668660006CA9BF /* XTYModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTYModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD31B581D668660006CA9BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CD31B5A1D668660006CA9BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -161,6 +164,8 @@
 		4CD31B8E1D6686D2006CA9BF /* XTYModelItem */ = {
 			isa = PBXGroup;
 			children = (
+				4C196C2F1D66AFCE00C37264 /* XTYModelItem.h */,
+				4C196C301D66AFCE00C37264 /* XTYModelItem.m */,
 			);
 			name = XTYModelItem;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 			files = (
 				4CD31B5C1D668660006CA9BF /* AppDelegate.m in Sources */,
 				4C196C2E1D66AF2100C37264 /* XTYJson.m in Sources */,
+				4C196C311D66AFCE00C37264 /* XTYModelItem.m in Sources */,
 				4CD31B5F1D668660006CA9BF /* MasterViewController.m in Sources */,
 				4CD31B591D668660006CA9BF /* main.m in Sources */,
 				4CD31B621D668660006CA9BF /* DetailViewController.m in Sources */,
