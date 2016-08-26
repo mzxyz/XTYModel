@@ -1,18 +1,18 @@
 //
-//  XTYModelTests.m
-//  XTYModelTests
+//  XTYModelDemoTests.m
+//  XTYModelDemoTests
 //
-//  Created by Michael on 16/8/19.
+//  Created by Michael on 16/8/26.
 //  Copyright © 2016年 Michael. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface XTYModelTests : XCTestCase
+@interface XTYModelDemoTests : XCTestCase
 
 @end
 
-@implementation XTYModelTests
+@implementation XTYModelDemoTests
 
 - (void)setUp {
     [super setUp];

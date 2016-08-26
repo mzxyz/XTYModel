@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:XTYModel.xcodeproj">
+      location = "self:XTYModelDemo.xcodeproj">
    </FileRef>
 </Workspace>

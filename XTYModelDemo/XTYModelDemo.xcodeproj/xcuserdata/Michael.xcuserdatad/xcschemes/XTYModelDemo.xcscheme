@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4CD31B531D668660006CA9BF"
-               BuildableName = "XTYModel.app"
-               BlueprintName = "XTYModel"
-               ReferencedContainer = "container:XTYModel.xcodeproj">
+               BlueprintIdentifier = "4CDEBD721D700AAC00351DE1"
+               BuildableName = "XTYModelDemo.app"
+               BlueprintName = "XTYModelDemo"
+               ReferencedContainer = "container:XTYModelDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4CD31B6F1D668660006CA9BF"
-               BuildableName = "XTYModelTests.xctest"
-               BlueprintName = "XTYModelTests"
-               ReferencedContainer = "container:XTYModel.xcodeproj">
+               BlueprintIdentifier = "4CDEBD8B1D700AAC00351DE1"
+               BuildableName = "XTYModelDemoTests.xctest"
+               BlueprintName = "XTYModelDemoTests"
+               ReferencedContainer = "container:XTYModelDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4CD31B7A1D668660006CA9BF"
-               BuildableName = "XTYModelUITests.xctest"
-               BlueprintName = "XTYModelUITests"
-               ReferencedContainer = "container:XTYModel.xcodeproj">
+               BlueprintIdentifier = "4CDEBD961D700AAC00351DE1"
+               BuildableName = "XTYModelDemoUITests.xctest"
+               BlueprintName = "XTYModelDemoUITests"
+               ReferencedContainer = "container:XTYModelDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4CD31B531D668660006CA9BF"
-            BuildableName = "XTYModel.app"
-            BlueprintName = "XTYModel"
-            ReferencedContainer = "container:XTYModel.xcodeproj">
+            BlueprintIdentifier = "4CDEBD721D700AAC00351DE1"
+            BuildableName = "XTYModelDemo.app"
+            BlueprintName = "XTYModelDemo"
+            ReferencedContainer = "container:XTYModelDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4CD31B531D668660006CA9BF"
-            BuildableName = "XTYModel.app"
-            BlueprintName = "XTYModel"
-            ReferencedContainer = "container:XTYModel.xcodeproj">
+            BlueprintIdentifier = "4CDEBD721D700AAC00351DE1"
+            BuildableName = "XTYModelDemo.app"
+            BlueprintName = "XTYModelDemo"
+            ReferencedContainer = "container:XTYModelDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4CD31B531D668660006CA9BF"
-            BuildableName = "XTYModel.app"
-            BlueprintName = "XTYModel"
-            ReferencedContainer = "container:XTYModel.xcodeproj">
+            BlueprintIdentifier = "4CDEBD721D700AAC00351DE1"
+            BuildableName = "XTYModelDemo.app"
+            BlueprintName = "XTYModelDemo"
+            ReferencedContainer = "container:XTYModelDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

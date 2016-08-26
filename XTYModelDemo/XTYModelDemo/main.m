@@ -1,8 +1,8 @@
 //
 //  main.m
-//  XTYModel
+//  XTYModelDemo
 //
-//  Created by Michael on 16/8/19.
+//  Created by Michael on 16/8/26.
 //  Copyright © 2016年 Michael. All rights reserved.
 //
 

@@ -10,7 +10,7 @@
 
 @interface XTYJson : NSObject <NSCopying>
 
-/** jsonObj is kind of NSDictionary or NSArray*/
+/** jsonObj is NSDictionary or NSArray*/
 @property(nonatomic, readonly) id jsonObj;
 
 /** 
@@ -36,7 +36,6 @@
  */
 - (instancetype)jsonObj;
 - (void)setJsonObject:(id)jsonObj;
-- (instancetype)originValueForKey:(NSString *)key;
 
 /** 
  *  search wether exist value at key

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>XTYModel.xcscheme</key>
+		<key>XTYModelDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4CD31B531D668660006CA9BF</key>
+		<key>4CDEBD721D700AAC00351DE1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4CD31B6F1D668660006CA9BF</key>
+		<key>4CDEBD8B1D700AAC00351DE1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4CD31B7A1D668660006CA9BF</key>
+		<key>4CDEBD961D700AAC00351DE1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
