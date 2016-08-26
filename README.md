@@ -15,7 +15,7 @@ A light weight and high performance model framework for iOS.
 ##CocoaPods
  * Add pod 'XTYModel' to your Podfile
  * Run `pod install` or `pod update`
- * Import <XTYModel/XTYModelItem.h>
+ * Import `<XTYModel/XTYModelItem.h>`
 
 ## Framework
 * add XTYModel.framework to your project
