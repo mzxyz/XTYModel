@@ -140,7 +140,7 @@ A light weight and high performance model framework for iOS.
 
 @end
 ```
-- ** note that  `followers_list` is an array which contains `XTYGitHubFollower` instance, and `publicRepos and publicGists `are not equal to the json key. So we should make some mapping operation through rewrite super class methods**
+- **note that  `followers_list` is an array which contains `XTYGitHubFollower` instance, and `publicRepos and publicGists `are not equal to the json key. So we should make some mapping operation through rewrite super class methods**
 
 ```
 @implementation XTYGitHubUserItem
