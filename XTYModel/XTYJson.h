@@ -47,6 +47,7 @@
  *  get json value with key
  */
 - (XTYJson*)jsonForKey:(NSString*)key;
+- (instancetype)originValueForKey:(NSString *)key;
 
 /** 
  *  get json value with index
