@@ -15,10 +15,10 @@
 		4CDEBD861D700AAC00351DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDEBD841D700AAC00351DE1 /* LaunchScreen.storyboard */; };
 		4CDEBD911D700AAC00351DE1 /* XTYModelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEBD901D700AAC00351DE1 /* XTYModelDemoTests.m */; };
 		4CDEBD9C1D700AAC00351DE1 /* XTYModelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEBD9B1D700AAC00351DE1 /* XTYModelDemoUITests.m */; };
-		4CDEBDAD1D700AD000351DE1 /* XTYJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEBDAC1D700AD000351DE1 /* XTYJson.m */; };
-		4CDEBDB01D700B2500351DE1 /* XTYModelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEBDAF1D700B2500351DE1 /* XTYModelItem.m */; };
 		4CDEBDB21D70277500351DE1 /* gitHub_user.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CDEBDB11D70277500351DE1 /* gitHub_user.json */; };
 		4CDEBDB51D7028B600351DE1 /* XTYGitHubUserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEBDB41D7028B600351DE1 /* XTYGitHubUserItem.m */; };
+		4CDEBDB91D70326000351DE1 /* XTYJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEBDB81D70326000351DE1 /* XTYJson.m */; };
+		4CDEBDBC1D70326C00351DE1 /* XTYModelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEBDBB1D70326C00351DE1 /* XTYModelItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,13 +55,13 @@
 		4CDEBD971D700AAC00351DE1 /* XTYModelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTYModelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDEBD9B1D700AAC00351DE1 /* XTYModelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTYModelDemoUITests.m; sourceTree = "<group>"; };
 		4CDEBD9D1D700AAC00351DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CDEBDAB1D700AD000351DE1 /* XTYJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTYJson.h; sourceTree = "<group>"; };
-		4CDEBDAC1D700AD000351DE1 /* XTYJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTYJson.m; sourceTree = "<group>"; };
-		4CDEBDAE1D700B2500351DE1 /* XTYModelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTYModelItem.h; sourceTree = "<group>"; };
-		4CDEBDAF1D700B2500351DE1 /* XTYModelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTYModelItem.m; sourceTree = "<group>"; };
 		4CDEBDB11D70277500351DE1 /* gitHub_user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gitHub_user.json; sourceTree = "<group>"; };
 		4CDEBDB31D7028B600351DE1 /* XTYGitHubUserItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTYGitHubUserItem.h; sourceTree = "<group>"; };
 		4CDEBDB41D7028B600351DE1 /* XTYGitHubUserItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTYGitHubUserItem.m; sourceTree = "<group>"; };
+		4CDEBDB71D70326000351DE1 /* XTYJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XTYJson.h; path = ../XTYJson/XTYJson.h; sourceTree = "<group>"; };
+		4CDEBDB81D70326000351DE1 /* XTYJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XTYJson.m; path = ../XTYJson/XTYJson.m; sourceTree = "<group>"; };
+		4CDEBDBA1D70326C00351DE1 /* XTYModelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XTYModelItem.h; path = ../XTYModelItem/XTYModelItem.h; sourceTree = "<group>"; };
+		4CDEBDBB1D70326C00351DE1 /* XTYModelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XTYModelItem.m; path = ../XTYModelItem/XTYModelItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,8 +156,8 @@
 		4CDEBDA91D700AB700351DE1 /* XTYModel */ = {
 			isa = PBXGroup;
 			children = (
-				4CDEBDAE1D700B2500351DE1 /* XTYModelItem.h */,
-				4CDEBDAF1D700B2500351DE1 /* XTYModelItem.m */,
+				4CDEBDBA1D70326C00351DE1 /* XTYModelItem.h */,
+				4CDEBDBB1D70326C00351DE1 /* XTYModelItem.m */,
 			);
 			name = XTYModel;
 			sourceTree = "<group>";
@@ -165,8 +165,8 @@
 		4CDEBDAA1D700AC000351DE1 /* XTYJson */ = {
 			isa = PBXGroup;
 			children = (
-				4CDEBDAB1D700AD000351DE1 /* XTYJson.h */,
-				4CDEBDAC1D700AD000351DE1 /* XTYJson.m */,
+				4CDEBDB71D70326000351DE1 /* XTYJson.h */,
+				4CDEBDB81D70326000351DE1 /* XTYJson.m */,
 			);
 			name = XTYJson;
 			sourceTree = "<group>";
@@ -314,11 +314,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CDEBD7E1D700AAC00351DE1 /* ViewController.m in Sources */,
+				4CDEBDB91D70326000351DE1 /* XTYJson.m in Sources */,
+				4CDEBDBC1D70326C00351DE1 /* XTYModelItem.m in Sources */,
 				4CDEBD7B1D700AAC00351DE1 /* AppDelegate.m in Sources */,
-				4CDEBDB01D700B2500351DE1 /* XTYModelItem.m in Sources */,
 				4CDEBD781D700AAC00351DE1 /* main.m in Sources */,
 				4CDEBDB51D7028B600351DE1 /* XTYGitHubUserItem.m in Sources */,
-				4CDEBDAD1D700AD000351DE1 /* XTYJson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
