@@ -43,6 +43,11 @@
 - (BOOL)hasValueForKey:(NSString*)key;
 - (BOOL)hasValueAtIndex:(NSUInteger)index;
 
+/**
+ *  original value in dictionary
+ */
+- (instancetype)originValueForKey:(NSString *)key;
+
 /** 
  *  get json value with key
  */

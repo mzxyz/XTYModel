@@ -21,7 +21,7 @@
  *  init method, the input data is a XTYJson instance, if your original data is a dictionary, just use the XTYJson init method to get a instance with your dictionary. We do not encourage to use original data class, like NSDictionary or NSArray to init item.
  */
 - (instancetype)initWithJson:(XTYJson*)json;
-- (instancetype)initwithDictionary:(NSDictionary *)dictionary;
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 /**
  *  follow methods use to parse list data structure, they are class method and should be used with subClass

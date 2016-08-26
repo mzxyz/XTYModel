@@ -17,6 +17,8 @@
 		4CDEBD9C1D700AAC00351DE1 /* XTYModelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEBD9B1D700AAC00351DE1 /* XTYModelDemoUITests.m */; };
 		4CDEBDAD1D700AD000351DE1 /* XTYJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEBDAC1D700AD000351DE1 /* XTYJson.m */; };
 		4CDEBDB01D700B2500351DE1 /* XTYModelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEBDAF1D700B2500351DE1 /* XTYModelItem.m */; };
+		4CDEBDB21D70277500351DE1 /* gitHub_user.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CDEBDB11D70277500351DE1 /* gitHub_user.json */; };
+		4CDEBDB51D7028B600351DE1 /* XTYGitHubUserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEBDB41D7028B600351DE1 /* XTYGitHubUserItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,9 @@
 		4CDEBDAC1D700AD000351DE1 /* XTYJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTYJson.m; sourceTree = "<group>"; };
 		4CDEBDAE1D700B2500351DE1 /* XTYModelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTYModelItem.h; sourceTree = "<group>"; };
 		4CDEBDAF1D700B2500351DE1 /* XTYModelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTYModelItem.m; sourceTree = "<group>"; };
+		4CDEBDB11D70277500351DE1 /* gitHub_user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gitHub_user.json; sourceTree = "<group>"; };
+		4CDEBDB31D7028B600351DE1 /* XTYGitHubUserItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTYGitHubUserItem.h; sourceTree = "<group>"; };
+		4CDEBDB41D7028B600351DE1 /* XTYGitHubUserItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTYGitHubUserItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,14 +114,14 @@
 		4CDEBD751D700AAC00351DE1 /* XTYModelDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4CDEBD791D700AAC00351DE1 /* AppDelegate.h */,
-				4CDEBD7A1D700AAC00351DE1 /* AppDelegate.m */,
 				4CDEBD7C1D700AAC00351DE1 /* ViewController.h */,
 				4CDEBD7D1D700AAC00351DE1 /* ViewController.m */,
-				4CDEBD7F1D700AAC00351DE1 /* Main.storyboard */,
-				4CDEBD821D700AAC00351DE1 /* Assets.xcassets */,
-				4CDEBD841D700AAC00351DE1 /* LaunchScreen.storyboard */,
-				4CDEBD871D700AAC00351DE1 /* Info.plist */,
+				4CDEBDB31D7028B600351DE1 /* XTYGitHubUserItem.h */,
+				4CDEBDB41D7028B600351DE1 /* XTYGitHubUserItem.m */,
+				4CDEBD791D700AAC00351DE1 /* AppDelegate.h */,
+				4CDEBD7A1D700AAC00351DE1 /* AppDelegate.m */,
+				4CDEBDB11D70277500351DE1 /* gitHub_user.json */,
+				4CDEBDB61D7028C100351DE1 /* attach */,
 				4CDEBD761D700AAC00351DE1 /* Supporting Files */,
 			);
 			path = XTYModelDemo;
@@ -164,6 +169,17 @@
 				4CDEBDAC1D700AD000351DE1 /* XTYJson.m */,
 			);
 			name = XTYJson;
+			sourceTree = "<group>";
+		};
+		4CDEBDB61D7028C100351DE1 /* attach */ = {
+			isa = PBXGroup;
+			children = (
+				4CDEBD7F1D700AAC00351DE1 /* Main.storyboard */,
+				4CDEBD821D700AAC00351DE1 /* Assets.xcassets */,
+				4CDEBD841D700AAC00351DE1 /* LaunchScreen.storyboard */,
+				4CDEBD871D700AAC00351DE1 /* Info.plist */,
+			);
+			name = attach;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CDEBD861D700AAC00351DE1 /* LaunchScreen.storyboard in Resources */,
+				4CDEBDB21D70277500351DE1 /* gitHub_user.json in Resources */,
 				4CDEBD831D700AAC00351DE1 /* Assets.xcassets in Resources */,
 				4CDEBD811D700AAC00351DE1 /* Main.storyboard in Resources */,
 			);
@@ -300,6 +317,7 @@
 				4CDEBD7B1D700AAC00351DE1 /* AppDelegate.m in Sources */,
 				4CDEBDB01D700B2500351DE1 /* XTYModelItem.m in Sources */,
 				4CDEBD781D700AAC00351DE1 /* main.m in Sources */,
+				4CDEBDB51D7028B600351DE1 /* XTYGitHubUserItem.m in Sources */,
 				4CDEBDAD1D700AD000351DE1 /* XTYJson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

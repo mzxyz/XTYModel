@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "XTYGitHubUserItem.h"
+#import "XTYJson.h"
 
 @interface ViewController ()
 
@@ -14,14 +16,19 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self parseJsonData];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (XTYGitHubUserItem *)parseJsonData
+{
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"gitHub_user" ofType:@"json"];
+    XTYJson *git_user_json = [XTYJson jsonWithData:[NSData dataWithContentsOfFile:filePath]];
+    XTYGitHubUserItem *userItem = [[XTYGitHubUserItem alloc] initWithJson:git_user_json];
+    
+    return userItem;
 }
 
 @end
