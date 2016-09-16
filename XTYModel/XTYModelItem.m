@@ -96,7 +96,7 @@
     return self;
 }
 
-- (instancetype)initwithDictionary:(NSDictionary *)dictionary
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary
 {
     if ([dictionary isKindOfClass:[NSDictionary class]])
     {
