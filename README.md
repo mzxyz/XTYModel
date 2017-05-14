@@ -113,7 +113,7 @@ A light weight and high performance model framework for iOS.
 
 ```
 
-##Model Item
+## Model Item
 
 ```
 @interface XTYGitHubFollower : XTYModelItem
@@ -159,7 +159,7 @@ A light weight and high performance model framework for iOS.
 @end
 ```
 
-##parse json data with XTYGitHubUserItem
+## parse json data with XTYGitHubUserItem
 
 ```
 NSString *filePath = [[NSBundle mainBundle] pathForResource:@"gitHub_user" ofType:@"json"];
@@ -169,5 +169,5 @@ XTYGitHubUserItem *userItem = [[XTYGitHubUserItem alloc] initWithJson:git_user_j
 
 
 
-#License
+# License
 XTYModel is released under the MIT license. See LICENSE for details.
