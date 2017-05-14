@@ -1,18 +1,18 @@
 # XTYModel
 A light weight and high performance model framework for iOS.
 
-#Main features
+# Main features
  *  Support all basic object you would need and object types can be automatically converted.
  * All data types will be verified to ensure type-safe during the conversion process.
  * Model class do not inherit from any other base class.
  * This library contains only 4 files.
 
-#Requirements
+# Requirements
 * iOS 7.0+ 
 * Xcode 7.11+
 
-#Installation
-##CocoaPods
+# Installation
+## CocoaPods
  * Add pod 'XTYModel' to your Podfile
  * Run `pod install` or `pod update`
  * Import `<XTYModel/XTYModelItem.h>`
@@ -22,8 +22,8 @@ A light weight and high performance model framework for iOS.
 * import "XTYModelItem.h"
 
 
-#API
-##XTYJson
+# API
+## XTYJson
 
 ```
 /** jsonObj is NSDictionary or NSArray*/
@@ -42,7 +42,7 @@ A light weight and high performance model framework for iOS.
 - (XTYJson*)jsonAtIndex:(NSUInteger)index;
 ```
 
-##XTYModelItem
+## XTYModelItem
 ```
 
 /**
@@ -77,8 +77,8 @@ A light weight and high performance model framework for iOS.
 ```
 
 
-#Usage 
-##Match model property to different JSON key
+# Usage 
+## Match model property to different JSON key
 
 ```
 // json data - gitHub_user
